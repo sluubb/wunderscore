@@ -1,0 +1,11 @@
+[package]
+name = "w_gfx"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ash = { version = "0.38", default-features = false, features = ["linked", "debug", "std"] }
+ash-window = "0.13"
+log = "0.4"
+winit = "0.29"
+raw-window-handle = "0.6.2"
